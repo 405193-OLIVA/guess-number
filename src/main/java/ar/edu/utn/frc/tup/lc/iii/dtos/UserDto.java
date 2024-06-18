@@ -11,6 +11,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class UserDto {
 
+    private Long id;
+
     @JsonProperty("username")
     private String userName;
 
